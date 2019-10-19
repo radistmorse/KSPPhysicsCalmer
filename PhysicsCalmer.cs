@@ -52,7 +52,7 @@ namespace PhysicsCalmer
       CheatOptions.NoCrashDamage = crash;
       CheatOptions.UnbreakableJoints = joints;
 
-      Debug.Log ("[Physics Calmer] Returned cheat options to the original state: NoCrashDamage=" + crash.ToString () + " UnbreakableJoints=" + joints.ToString ());
+      Debug.Log ($"[Physics Calmer] Returned cheat options to the original state: NoCrashDamage={crash} UnbreakableJoints={joints}");
     }
   }
 }
